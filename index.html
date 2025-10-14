@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page Galang Dana</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  
+  <header class="navbar">
+    <div class="logo">Donasi<span>Peduli</span></div>
+    <nav>
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#testimonial">Testimonial</a></li>
+        <li><a href="#anggota">Anggota</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div>
+      <button class="donate-btn" onclick="openDonate()">Donasi</button>
+      <button class="login-btn" onclick="openLogin()">Login</button>
+    </div>
+  </header>
+
+  
+  <section id="home" class="section home-section">
+    <div class="carousel">
+      <div class="slides fade" style="display:block;">
+        <img src="https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=1350&q=80" alt="">
+        <div class="text">Bersama Kita Bisa Menolong Sesama</div>
+      </div>
+      <div class="slides fade">
+        <img src="image/home.jpg" alt="">
+        <div class="text">Setiap Donasi Anda Sangat Berarti</div>
+      </div>
+      <div class="slides fade">
+        <img src="image/gempa.jpg" alt="">
+        <div class="text">Mari Ciptakan Harapan Baru</div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="about" class="section light-bg">
+    <img src="image/donasiabout.png" alt="" class="about-img">
+    <h2>Tentang Kami</h2>
+    <p>DonasiPeduli adalah platform galang dana untuk membantu mereka yang membutuhkan. Kami mempertemukan donatur dengan penerima bantuan secara transparan dan aman.</p>
+    <button class="donate-btn" onclick="openDonate()">Donasi Sekarang</button>
+  </section>
+
+  
+  <section id="blog" class="section">
+    <h2>Artikel & Berita</h2>
+    <div class="blog-container">
+      <div class="blog-card">
+        <img src="image/anakyatim.webp" alt="">
+        <h3>Program Donasi Anak Yatim</h3>
+        <p>Kisah inspiratif dari para donatur yang membantu anak yatim melalui platform kami.</p>
+      </div>
+      <div class="blog-card">
+        <img src="image/bencana blog.jpg" alt="">
+        <h3>Bantuan Bencana Alam</h3>
+        <p>Distribusi bantuan ke daerah terdampak bencana alam.</p>
+      </div>
+      <div class="blog-card">
+        <img src="image/pedulikanker.jpg" alt="">
+        <h3>Peduli Pasien Kanker</h3>
+        <p>Membantu saudara kita yang terkena kanker.</p>
+      </div>
+      <div class="blog-card">
+        <img src="image/masjid.webp" alt="">
+        <h3>Bantu Pembangunan masjid di tempat pelosok</h3>
+        <p>Membantu membangun masjid di daerah pelosok</p>
+      </div>
+      <div class="blog-card">
+        <img src="image/sekolah.jpg" alt="">
+        <h3>Merenovasi Sekolah tidak layak pakai</h3>
+        <p>Membantu saudara kita yang sedang bersekolah namun ditempat yang kurang layak</p>
+      </div>
+      <div class="blog-card">
+        <img src="image/palestina.webp" alt="">
+        <h3>Peduli palestina</h3>
+        <p>Bantu saudara kita dipalestina untuk tetap semangat</p>
+      </div>
+      <div class="blog-card">
+        <img src="image/donasipapua.jpg" alt="">
+        <h3>Bantu wujudkan mimpi anak-anak papua</h3>
+        <p>Mewujudkan mimpi anak-anak yang tinggal di papua.</p>
+      </div>
+      <div class="blog-card">
+        <img src="image/lansia.jpeg" alt="">
+        <h3>Peduli kesehatan lansia</h3>
+        <p>Membantu para lansia agar tetap tercukupi kebutuhannya</p>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="testimonial" class="section light-bg">
+    <img src="image/testimonial.png" alt="" class="testimonial-img">
+    <h2>Testimonial</h2>
+    <div class="testimonial">
+      <p>"Saya merasa bangga bisa berdonasi lewat DonasiPeduli. Prosesnya mudah dan transparan!"</p>
+      <h4>- Rina, Donatur</h4>
+      <p>"Saya sangat percaya bahwa donasi saya tersampaikan kepada yang tepat."</p>
+      <h4>- Zaki, Donatur</h4>
+      <p>"platform DonasiPeduli sangat terpercaya dan sumbangan tersampaikan dengan benar</p>
+      <h4>- Dimas, Donatur</h4>
+    </div>
+  </section>
+
+  
+  <section id="anggota" class="section">
+    <h2>Anggota Kelompok</h2>
+    <div class="anggota-container">
+      <div class="anggota-card">
+        <img src="https://source.unsplash.com/150x150/?student" alt="">
+        <p>Muhammad Aziz</p>
+        <p>102240001</p>
+      </div>
+      <div class="anggota-card">
+        <img src="https://source.unsplash.com/150x150/?student" alt="">
+        <p>Latifa Nur Izzati</p>
+        <p>102240017</p>
+      </div>
+      <div class="anggota-card">
+        <img src="https://source.unsplash.com/150x150/?student" alt="">
+        <p>Tu Bagus Urwatul Wustqo</p>
+        <p>102240030</p>
+      </div>
+      <div class="anggota-card">
+        <img src="https://i.ibb.co.com/GQVH4726/IMG-20251018-173429.jpg" alt="">
+        <p>Muhammad Windiarto</p>
+        <p>102240003</p>
+      </div>
+      <div class="anggota-card">
+        <img src="https://source.unsplash.com/150x150/?student" alt="">
+        <p>Salik Sabil</p>
+        <p>102240004</p>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="contact" class="section light-bg">
+    <img src="image/Donasi-Sekarang.png" alt="">
+    <h2>Hubungi Kami</h2>
+    <p>Email: info@donasipeduli.com | Telepon: +62 896 2047 6104</p>
+    <div class="social-icons">
+      <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+  </section>
+
+  
+  <div id="loginModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeLogin()">&times;</span>
+      <h2>Login</h2>
+      <form>
+        <input type="text" placeholder="Username" required>
+        <input type="password" placeholder="Password" required>
+        <button type="submit">Masuk</button>
+      </form>
+    </div>
+  </div>
+
+  
+  <div id="donateModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeDonate()">&times;</span>
+      <h2>Form Donasi</h2>
+      <form>
+        <input type="text" placeholder="Nama Lengkap" required>
+        <input type="number" placeholder="Nominal Donasi (Rp)" required>
+        <textarea placeholder="Pesan atau Doa" rows="3"></textarea>
+        <select required>
+          <option value="">Pilih Metode Pembayaran</option>
+          <option>Transfer Bank</option>
+          <option>OVO / GoPay / DANA</option>
+          <option>Kartu Kredit</option>
+        </select>
+        <button type="submit">Kirim Donasi</button>
+      </form>
+    </div>
+  </div>
+
+  <button id="btnTop" onclick="scrollToTop()"><i class="fa-solid fa-arrow-up"></i></button>
+
+<!-- ===== SCRIPT JS ===== -->
+  <script>
+    // Tombol Scroll Top
+    window.onscroll = function() {
+      const btn = document.getElementById("btnTop");
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100)
+        btn.style.display = "block";
+      else btn.style.display = "none";
+    };
+    function scrollToTop() { window.scrollTo({ top: 0, behavior: 'smooth' }); }
+
+    // Modal
+    function openLogin() { document.getElementById("loginModal").style.display = "block"; }
+    function closeLogin() { document.getElementById("loginModal").style.display = "none"; }
+    function openDonate() { document.getElementById("donateModal").style.display = "block"; }
+    function closeDonate() { document.getElementById("donateModal").style.display = "none"; }
+
+    // Carousel
+    let slideIndex = 0;
+    function showSlides() {
+      const slides = document.querySelectorAll(".slides");
+      slides.forEach(slide => slide.style.display = "none");
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1; }
+      slides[slideIndex - 1].style.display = "block";
+      setTimeout(showSlides, 4000);
+    }
+    showSlides();
+  </script>
+
+</body>
+</html>
