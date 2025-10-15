@@ -598,7 +598,9 @@ a:hover {
         flex-wrap: wrap;
     }
 
-
+    .navbar nav ul {
+        display: none; 
+    }
 
     .navbar div:last-child {
         margin-left: auto;
