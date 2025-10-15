@@ -592,7 +592,7 @@ a:hover {
 
 /* 12. Media Queries untuk Responsif */
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     .navbar {
         padding: 10px 3%;
         flex-wrap: wrap;
